@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/shopping.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/alert.css">
+</head>
+<body>
+<header>
+
+</header>
+<!-- 遮罩层 -->
+<div class="opacity">
+    <div class='opacity_bg'></div>
+</div>
+<div class="top1">
+    <div class="logo">
+        <span>购物车</span>
+    </div>
+    <div class="quanbu">全部商品<span></span></div>
+    <div class="head">
+        <input type="checkbox" class="gou">全选
+        <span class="product">商品</span>
+        <span class="price">单价</span>
+        <span class="count">数量</span>
+        <span class="com">小计</span>
+        <span class="caozuo">操作</span>
+    </div>
+    <!-- 自做弹框 -->
+    <div class='shanchu'>
+        <div>
+            <div class='top'>
+                <div>提示</div>
+                <div>×</div>
+            </div>
+            <div class='middle'>
+                <img src="img/fd9a84ew9f4.jpg">
+                <span>此操作将从购物车中删除该商品, 是否继续?</span>
+            </div>
+            <div class='bottom'>
+                <button>取消</button>
+                <button>确定</button>
+            </div>  
+        </div>  
+    </div>
+    <div id="product">
+        <!-- <div class="shangpin">
+            <div class="xuan"><input type="checkbox" class="gou"></div>
+            <div class="data">
+                <a href="#"><img src="img/md/cid=1-1.jpg"></a>
+                <div class="zi">
+                    <a href="#">七匹狼新品短袖T恤男2018新款衣服男装圆领纯色莫代尔黑色男士短袖体恤衫半袖上衣打底衫浅绿色@ 160/80A/s</a>
+                </div>
+                <div class="shuxing">
+                    <p class="color">颜色： 浅绿色</p>
+                    <p class="size">尺码： S</p>
+                </div>
+                <p class="price">¥129.00</p>
+                <div class="shuru">
+                    <a href="javascript:;">-</a>
+                    <span>1</span>
+                    <a href="javascript:;">+</a>
+                </div>
+                <div class="zong">¥129.00</div>
+                <div class="gongneng"><a href="javascript:;">删除</a></div>
+            </div>
+        </div>
+        <div class="shangpin">
+            <div class="xuan"><input type="checkbox" class="gou"></div>
+            <div class="data">
+                <a href="#"><img src="img/md/cid=1-1.jpg"></a>
+                <div class="zi">
+                    <a href="#">七匹狼新品短袖T恤男2018新款衣服男装圆领纯色莫代尔黑色男士短袖体恤衫半袖上衣打底衫浅绿色@ 160/80A/s</a>
+                </div>
+                <div class="shuxing">
+                    <p class="color">颜色： 浅绿色</p>
+                    <p class="size">尺码： S</p>
+                </div>
+                <p class="price">¥129.00</p>
+                <div class="shuru">
+                    <a href="javascript:;">-</a>
+                    <span>1</span>
+                    <a href="javascript:;">+</a>
+                </div>
+                <div class="zong">¥129.00</div>
+                <div class="gongneng"><a href="javascript:;">删除</a></div>
+            </div>
+        </div>-->
+    </div>
+    <div class="jiesuan">
+        <div class="left">
+            <ul>
+                <li><input type="checkbox" class="gou"></li>
+                <li>全选</li>
+                <li><a href="javascript:;">删除选中的商品</a></li>
+                <li><a href="javascript:;">清理购物车</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div>
+                <a href="javascript:;"><p>已选择 <span class='num'></span> 件商品  <span>∧</span></p></a>
+                <div class="xx">
+                    <span>总价：</span>
+                    <span>￥0.00</span>
+                </div>
+                <a href="#">去结算</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+
+</footer>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+    <script src="js/vue.js"></script>
+    <script src='js/header.js'></script>
+    <script src='js/footer.js'></script>
+    <script src="js/shopping.js"></script>
+</html>
